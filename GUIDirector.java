@@ -5,24 +5,20 @@ public class GUIDirector {
 
 	private GUIBuilder guiBuilder;
 	
-	// gui specification is sent to the engineer
 	
 	public GUIDirector(GUIBuilder guiBuilder){
 		
 		this.guiBuilder = guiBuilder;
 		
 	}
-	
-	// Return the Robot made from the OldRobotBuilder spec
+
 	
 	public GUI getGUI(){
 		
 		return this.guiBuilder.getGUI();
 		
 	}
-	
-	// Execute the methods specific to the RobotBuilder 
-	// that implements RobotBuilder (OldRobotBuilder)
+
 	
 	public void makeGUI() {
 		
