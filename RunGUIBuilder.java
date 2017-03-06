@@ -7,21 +7,14 @@ public class RunGUIBuilder {
 	
 	public static void main(String[] args){
 		
-		// Get a RobotBuilder of type OldRobotBuilder
-		
 		GUIBuilder windosgui = new WindowsGUIBuilder();
 		
-		// Pass the OldRobotBuilder specification to the engineer
 		
 		GUIDirector guidirector = new GUIDirector(windosgui);
 		
-		// Tell the engineer to make the Robot using the specifications
-		// of the OldRobotBuilder class
 		
 		guidirector.makeGUI();
 		
-		// The engineer returns the right robot based off of the spec
-		// sent to it on line 11
 		
 		GUI guiObject = guidirector.getGUI();
 		
